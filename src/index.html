@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meme Generator</title>
+    <link rel="stylesheet" href="/src/styles/styles.css">
+    <link rel="icon" href="/src/assets/favicon.ico">
+    <script src="/src/js/main.js" type="module" defer></script>
+</head>
+<body>
+    <div id="app">
+        <label for="image-input">
+            <img src="/src/assets/images/upload.png" alt="upload">
+        </label>
+        <input type="file" id="image-input" accept="image/*" hidden>
+
+        <input type="text" id="top-text" placeholder="верхний текст">
+
+        <input type="text" id="bottom-text" placeholder="нижний текст">
+
+        <canvas id="meme"></canvas>
+
+        <button id="download">Скачать</button>
+    </div>
+</body>
+</html>

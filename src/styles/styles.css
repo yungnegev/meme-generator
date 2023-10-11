@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#app {
+    background-color: #121212;
+    color: #fff;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+#meme {
+    max-width: 500px;
+    max-height: 500px;
+    display: none;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #fff;
+    color: #121212;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #121212;
+    color: #fff;
+}
+
+input {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #fff;
+    color: #121212;
+    font-weight: bold;
+    outline: none;
+}
+
+label {
+    cursor: pointer;
+}
+
+label:hover {
+    scale: 1.05;
+}
